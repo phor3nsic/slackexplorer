@@ -91,7 +91,7 @@ def n_print(text):
 
 if __name__ == "__main__":
 	OUTPUT = None
-	MAX = 1000
+	MAX = 500
 	n_print(banner)
 	parser = argparse.ArgumentParser()
 	parser.add_argument('token', help='Token of slack')
